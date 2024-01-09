@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>阿沐自動化程式</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div id="outer-container">
+    <div id="logo-container">
+      <img src="https://drive.google.com/uc?id=19JErhB9aivktPOR0T7LRnVN2rgmmzBgZ" alt="Logo" />
+    </div>
+    <div id="container">
+      <h1 id="title">阿沐IOT自動化應用</h1>
+       <div class="center">
+        <table id="statusTable">
+          <tbody>
+            <tr>
+              <td><strong>2024--07 10:12:35</strong></td>
+              <td><strong>執行時間：</strong></td>
+              <td><strong>現在控制廳別：A廳</strong></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div id="buttons">
+        <button id="startBtn">執行自動化開機程序</button>
+        <button id="lightShowBtn">執行燈光秀</button>
+        <button id="shutdownBtn">關閉設備</button>
+        <button id="stopBtn">停止</button>
+        <button id="restoreBtn">還原初始化</button>
+        <button id="backupPlanBtn">備援計劃</button>
+        <button id="checkConnectionBtn">檢查連線</button>
+      </div>
+      <div class="center">
+        <table id="tableHeader" style="height: 38px;" border="1" width="1103">
+          <tbody>
+            <tr>
+              <th style="width: 261.387px;">設備名稱</th>
+              <th style="width: 261.387px;">執行狀態</th>
+              <th style="width: 261.387px;">執行結果</th>
+              <th style="width: 261.484px;">執行時間</th>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div id="additionalButtons">
+        <button id="testStartBtn" style="display: none;">測試執行開機程序</button>
+        <button id="switchModeBtn" style="display: none;">切換模式</button>
+      </div>
+    </div>
+        <script src="./main.js"></script>
+        <script src="./123.js"></script>
+  </div>
+</body>
+</html>
